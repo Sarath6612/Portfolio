@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Grade Calculator</title>
+    <!-- link for font  -->
+    <link href=
+"https://fonts.googleapis.com/css?family=Righteous&display=swap" 
+          rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- main html  -->
+    <div class="container">
+        <h1>STUDENT GRADE CALCULATOR</h1>
+        <div class="screen-body-item">
+            <div class="app">
+                <div class="form-group">
+                    <!-- option for taking the input -->
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="Subject 1" 
+                           id="chemistry" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="Subject 2" id="hindi" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="Subject 3" id="maths" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="Subject 4" id="phy" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="Subject 5" id="phy" />
+                </div>
+                <button id="toss-button"  onclick="calculate()">
+                    CALCULATE
+                </button>
+                <!-- <div class="calculate-button">
+                    <input type="button" 
+                           value="CALCULATE" 
+                           class="form-button" 
+                           onclick="calculate()" />
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="form-group showdata"> -->
+            <p id="showdata"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
